@@ -63,7 +63,9 @@
   }
   .img {
     top: -10px;
+    height: 492px;
   }
+  
 }
 @media screen and (max-width: 572px) {
   .img {
@@ -72,6 +74,9 @@
   .heading-text{
     font-size: 30px;
     line-height: 38px;
+  }
+  #home {
+    padding-top: 0 !important;
   }
 }
 </style>

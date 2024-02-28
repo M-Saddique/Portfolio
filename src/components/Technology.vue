@@ -49,8 +49,8 @@
         </div>
       </div>
       <div class="col-12 col-md-6">
-        <div>
-          <img class="code-pic" src="../assets/tec-code-preview.png" alt="" />
+        <div style="text-align:center">
+          <img class="code-pic" src="../assets/tech.jpeg" alt="" />
         </div>
       </div>
     </div>
@@ -83,17 +83,22 @@
   width: 90%;
   margin: auto;
 }
-.code-pic {
-  width: 100%;
-  height: 793px;
-  object-fit: cover;
-}
+
 
 @media screen and (max-width: 772px) {
   .main-tec {
     flex-direction: column-reverse;
   }
 }
+
+
+@media screen and (max-width: 992px) {
+  .code-pic {
+    width:100%;
+    margin-bottom: 40px;
+  }
+}
+
 
 @media screen and (max-width: 572px) {
   .main-tec {
@@ -104,5 +109,6 @@
     line-height: 38px;
     padding-top: 0 !important;
   }
+ 
 }
 </style>

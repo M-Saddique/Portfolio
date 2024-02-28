@@ -38,10 +38,10 @@
               ABOUT US
             </button>
             <h1 class="text-white about-text pt-3">
-             Saddique
+             My Name is Saddique
             </h1>
             <p class="text-white about-paragarph">
-              I'm a passionate Vue.js developer with 4 years of experience in
+              I'm a passionate Vue.js developer with 2 years plus experience in
               crafting dynamic and engaging user interfaces. With a strong
               background in front-end development, I specialize in leveraging
               Vue.js to build scalable and performant single-page applications

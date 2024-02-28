@@ -1,7 +1,10 @@
 <template>
   <div class="container-fluid mt-5 mb-5">
-    <div class="main-nav">
-        <ul class="d-flex nav-list justify-content-between pt-1">
+    <div class="main-nav text-center">
+     <a href="https://github.com/M-saddiqtechcastle" target="_blank"> <i class="fa-brands fa-github  icons"></i></a>
+     <a href="https://www.linkedin.com/in/m-saddique-0378251b7/" target="_blank"> <i class="fa-brands fa-linkedin icons"></i></a>
+      <i class="fa-brands fa-facebook icons"></i>
+        <!-- <ul class="d-flex nav-list justify-content-between pt-1">
             <li class="listItem"><a class="listItem" href="#home">Home</a></li>
             <li class="listItem">
               <a class="listItem" href="#solution">Projects</a>
@@ -9,9 +12,7 @@
             <li class="listItem">
               <a class="listItem" href="#about-us">About Us</a>
             </li>
-            <!-- <li class="listItem">
-              <a class="listItem" href="#services">Services</a>
-            </li> -->
+            
             <li class="listItem">
               <a class="listItem" href="#Technology">Technology</a>
             </li>
@@ -21,7 +22,7 @@
             <li class="listItem">
               <a class="listItem" href="#contact-us">Contact Us</a>
             </li>
-          </ul>
+          </ul> -->
     </div>
 
   </div>
@@ -34,6 +35,11 @@
   <style scoped>
   @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap");
   
+  .icons{
+    color: #fff;
+    font-size: 35px;
+    margin: 0 10px;
+  }
   .main-nav {
     padding: 10px 26px;
     background:black;
