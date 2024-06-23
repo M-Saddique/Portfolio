@@ -20,9 +20,9 @@
           <!-- <li class="listItem">
             <a class="listItem" href="#services">Services</a>
           </li> -->
-          <li class="listItem">
+          <!-- <li class="listItem">
             <a class="listItem" href="#Technology">Technology</a>
-          </li>
+          </li> -->
           <li class="listItem">
             <a class="listItem" href="#Success-stories">Success stories</a>
           </li>
@@ -59,12 +59,12 @@
                 <li @click="closeNavBar" class="listItem2">
                   <a class="listItem2" href="#about-us">About Us</a>
                 </li>
-                <li @click="closeNavBar" class="listItem2">
+                <!-- <li @click="closeNavBar" class="listItem2">
                   <a class="listItem2" href="#services">Services</a>
-                </li>
-                <li @click="closeNavBar" class="listItem2">
+                </li> -->
+                <!-- <li @click="closeNavBar" class="listItem2">
                   <a class="listItem2" href="#Technology">Technology</a>
-                </li>
+                </li> -->
                 <li @click="closeNavBar" class="listItem2">
                   <a class="listItem2" href="#Success-stories">Success stories</a>
                 </li>
