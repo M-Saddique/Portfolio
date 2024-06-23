@@ -1,7 +1,7 @@
 <template>
   <div class="container-fluid mt-5 mb-5">
     <div class="main-nav text-center">
-     <a href="https://github.com/M-saddiqtechcastle" target="_blank"> <i class="fa-brands fa-github  icons"></i></a>
+     <a href="https://github.com/M-Saddique" target="_blank"> <i class="fa-brands fa-github  icons"></i></a>
      <a href="https://www.linkedin.com/in/m-saddique-0378251b7/" target="_blank"> <i class="fa-brands fa-linkedin icons"></i></a>
       <i class="fa-brands fa-facebook icons"></i>
         <!-- <ul class="d-flex nav-list justify-content-between pt-1">

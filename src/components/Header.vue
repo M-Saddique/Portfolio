@@ -5,7 +5,7 @@
         <div class="mt-5 p-5 home-main-container">
           <span class="span-home">Dedicated to Customer Success →</span>
           <h1 class="text-white heading-text">
-            Front End Developer (Vue JS)
+            Frontend Developer (Vue JS)
           </h1>
           <p class="heading-paragarph">
             we specialize in delivering exceptional front-end Vue.js services tailored to meet the unique needs of your project. With our team of experienced Vue.js developers, we combine creativity, innovation, and technical expertise to bring your ideas to life and create immersive user experiences.

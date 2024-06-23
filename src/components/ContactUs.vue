@@ -9,7 +9,7 @@
         />
       </div>
 
-      <h1 class="heading-contact mt-3 mb-3">Front End Developer (Vue JS)</h1>
+      <h1 class="heading-contact mt-3 mb-3">Frontend Developer (Vue JS)</h1>
       <form method="post" action="" name="contactform" id="">
         <div class="input-group flex-nowrap">
           <span class="input-group-text" id="addon-wrapping">
