@@ -41,9 +41,8 @@
              My Name is Saddique
             </h1>
             <p class="text-white about-paragarph">
-              I'm a passionate Vue.js developer with 3 years plus experience in
-              crafting dynamic and engaging user interfaces. With a strong
-              background in front-end development, I specialize in leveraging
+              I'm a passionate Frontend Developer with 4 year plus experience in
+              crafting dynamic and engaging user interfaces. I specialize in leveraging
               Vue.js to build scalable and performant single-page applications
               (SPAs) that deliver seamless user experiences.
             </p>
