@@ -8,10 +8,15 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
-  base:"Portfolio",
+  pwa: {
+    workboxOptions: {
+      exclude: [/_redirects/]
+    }
+  },
+  base:"/Portfolio/",
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
-  },
+  }
 })
