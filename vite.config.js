@@ -13,7 +13,7 @@ export default defineConfig({
       exclude: [/_redirects/]
     }
   },
-  base:"/Portfolio/",
+  base:"/",
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
