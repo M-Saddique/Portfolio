@@ -8,6 +8,11 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
+  pwa: {
+    workboxOptions: {
+      exclude: [/_redirects/]
+    }
+  },
   base:"Portfolio",
   resolve: {
     alias: {
