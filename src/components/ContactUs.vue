@@ -9,8 +9,8 @@
         />
       </div>
 
-      <h1 class="heading-contact mt-3 mb-3">Frontend Developer (Vue JS)</h1>
-      <form method="post" action="" name="contactform" id="">
+      <h1 class="heading-contact mt-3 mb-3">Frontend Developer</h1>
+      <!-- <form method="post" action="" name="contactform" id="">
         <div class="input-group flex-nowrap">
           <span class="input-group-text" id="addon-wrapping">
             <i class="fa-solid fa-envelope"></i
@@ -50,7 +50,6 @@
             id="datePicker"
             :value="dateSelect"
           />
-          <!-- value="2013-01-08" -->
         </div>
         <div style="margin: auto; width: 28%; text-align: left">
           <span
@@ -75,7 +74,7 @@
 
       <div v-if="spinner">
         <img src="../assets/spinner.gif" style="height: 48px" alt="" />
-      </div>
+      </div> -->
     </div>
   </div>
   <Transition>
@@ -154,7 +153,8 @@ const submitData = (form) => {
   fetch(scriptURL, { method: "POST", body: new FormData(form) })
     .then(
       (response) =>
-        (messageStatus.value = "Thank you! your form is submitted successfully.")
+        (messageStatus.value =
+          "Thank you! your form is submitted successfully.")
     )
     .then(() => {
       message.value = "";
@@ -194,10 +194,10 @@ const selectByDefaultDate = () => {
   if (dateFiq.value.includes(day)) {
     var dayFiq = `0${day}`;
   } else {
-    var dayFiq = $`{day}`;
+    var dayFiq = `${day}`;
   }
 
-  dateSelect.value = $`{year}` - $`{monthFiq}` - $`{dayFiq}`;
+  dateSelect.value = `${year}` - `${monthFiq}` - `${dayFiq}`;
 };
 
 onMounted(() => {

@@ -12,7 +12,7 @@
               <p class="para-total mb-0">Complete Projects</p>
             </div>
             <div class="col-6 p-3 sucess-main">
-              <h4 class="heading-total">+3</h4>
+              <h4 class="heading-total">+2</h4>
               <p class="para-total mb-0">On Going Projects</p>
             </div>
           </div>

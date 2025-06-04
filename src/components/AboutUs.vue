@@ -6,10 +6,33 @@
   >
     <div class="row mt-5 main-container">
       <div class="col-12 col-md-12 col-lg-6">
-        <div class="network ps-5">
+        <div class="network p-3">
           <!-- <img class="network-img" src="../assets/about-us.png" alt="" /> -->
           <div class="pt-1 solution-main">
-            <ul>
+            <div
+              class="skills-container"
+              v-for="(skill, index) of skillSet"
+              :key="index"
+            >
+              <div class="skill">
+                <div class="skill-title">
+                  <div>
+                    <span>{{ skill.name }}</span>
+                    <span
+                      style="background-color: #80808030"
+                      class="bg-gray px-4 ms-3"
+                      >{{ skill.year }} years</span
+                    >
+                  </div>
+
+                  <span>{{ skill.percentage }}</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill vuejs" :class="skill.width"></div>
+                </div>
+              </div>
+            </div>
+            <!-- <ul>
             <li><h1 class="text-white network-text pt-3">Proficient in Vue.js framework, including Vue Router and Vuex for state management.</h1></li>
             <li><h1 class="text-white network-text pt-3">Solid understanding of HTML, CSS, and JavaScript, with a focus on modern ECMAScript standards.</h1></li>
             <li><h1 class="text-white network-text pt-3">Experience with component-based architecture and developing reusable Vue components.</h1></li>
@@ -18,7 +41,7 @@
             <li><h1 class="text-white network-text pt-3">Skilled in responsive web design and cross-browser compatibility.</h1></li>
             <li><h1 class="text-white network-text pt-3">Capable of writing clean, modular, and maintainable code, adhering to best practices and coding standards.</h1></li>
             <li><h1 class="text-white network-text pt-3">Experience with version control systems like Git and collaborative development workflows.</h1></li>
-            </ul>
+            </ul> -->
 
             <!-- <p class="text-white network-paragarph">
               Monitor and adapt granular access policies with logging &
@@ -37,14 +60,14 @@
               /></span>
               ABOUT US
             </button>
-            <h1 class="text-white about-text pt-3">
-             My Name is Saddique
-            </h1>
+            <h1 class="text-white about-text pt-3">whoami</h1>
             <p class="text-white about-paragarph">
-              I'm a passionate Frontend Developer with 4.5 years of experience in
-              crafting dynamic and engaging user interfaces. I specialize in leveraging
-              Vue.js to build scalable and performant single-page applications
-              (SPAs) that deliver seamless user experiences.
+              Frondend developer with 4+ years of experience building scalable
+              applications. <br />
+              <span>
+                Passionate about clean code, user experience, and emerging
+                technologies.</span
+              >
             </p>
           </div>
         </div>
@@ -52,7 +75,25 @@
     </div>
   </div>
 </template>
-
+<script setup>
+const skillSet = [
+  { name: "Vue.js", percentage: "100%", year: "4", width: "Vue" },
+  { name: "Nuxt.js", percentage: "92%", year: "4", width: "Nuxt" },
+  {
+    name: "TypeScript",
+    percentage: "75%",
+    year: "1",
+    width: "TypeScript",
+  },
+  { name: "React", percentage: "80%", year: "2", width: "React" },
+  {
+    name: "Tailwind CSS",
+    percentage: "90%",
+    year: "4",
+    width: "Tailwind",
+  },
+];
+</script>
 <style scoped>
 .main-container {
   width: 95%;
@@ -96,13 +137,62 @@
 }
 .about-paragarph {
   font-size: 18px;
-  color: #dedede !important;
+  color: #a1a1a1 !important;
   font-weight: 400;
   line-height: 27px;
+}
+.about-paragarph span {
+  color: #007bc5;
 }
 .about-text {
   font-size: 48px;
   line-height: 64px;
+}
+.skills-container {
+  /* max-width: 600px; */
+  margin: 0 auto;
+}
+
+.skill {
+  margin-bottom: 1.5rem;
+}
+
+.skill-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.progress-bar {
+  height: 10px;
+  background-color: #1e293b;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(to right, #007bc5, #007bc5);
+  transition: width 1s ease-in-out;
+}
+
+/* Skill-specific widths */
+.Vue {
+  width: 100%;
+}
+.Tailwind {
+  width: 95%;
+}
+.React {
+  width: 80%;
+}
+.Nuxt {
+  width: 83%;
+}
+.TypeScript {
+  width: 75%;
 }
 
 @media screen and (max-width: 1200px) {
