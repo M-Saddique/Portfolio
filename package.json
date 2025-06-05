@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "vue": "^3.4.15",
+    "vue-gtag-next": "^1.14.0",
     "vue-router": "^4.2.5"
   },
   "devDependencies": {

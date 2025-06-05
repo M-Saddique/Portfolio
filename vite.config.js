@@ -13,6 +13,9 @@ export default defineConfig({
       exclude: [/_redirects/]
     }
   },
+  optimizeDeps: {
+    include: ['vue-gtag-next']
+  },
   base:"/",
   resolve: {
     alias: {
