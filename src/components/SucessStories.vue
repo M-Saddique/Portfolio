@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid" id="Success-stories" style="padding-top: 10px">
+  <div class="" id="Success-stories" style="padding-top: 10px">
     <div class="sucess-main-container">
       <div class="bg-conatiner">
         <div class="col-12 col-md-8 col-lg-6 p-5">
@@ -34,10 +34,6 @@
 import GitHub from "@/components/GitHub.vue";
 </script>
 <style scoped>
-.sucess-main-container {
-  width: 90%;
-  margin: auto;
-}
 .bg-conatiner {
   background-image: url("../assets/risk-management.png");
   background-repeat: no-repeat;

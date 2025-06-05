@@ -53,7 +53,7 @@ onMounted(() => {
 <style scoped>
 .github-card {
   /* max-width: 400px; */
-  background-color: #2c2f36;
+  background-color: #1e2025;
   border: none;
   border-radius: 12px;
   color: #ffffff;

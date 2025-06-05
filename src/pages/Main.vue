@@ -1,4 +1,5 @@
 <template>
+  <div style="width: 90%; margin: auto">
   <Nav />
   <Header />
   <OurSolution />
@@ -10,6 +11,7 @@
   <!-- <GitHub /> -->
   <Footer />
   <ChatBot />
+</div>
 </template>
 
 <script setup>

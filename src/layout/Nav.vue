@@ -14,15 +14,15 @@
           "
         />
       </div>
-      <div class="col-lg-9 col-md-9 col-xl-6">
+      <div class="col-lg-8 col-md-8 col-xl-4">
         <ul class="d-flex nav-list justify-content-between pt-1">
           <li class="listItem"><a class="listItem" href="#home">Home</a></li>
           <li class="listItem">
             <a class="listItem" href="#solution">Projects</a>
           </li>
-          <li class="listItem">
+          <!-- <li class="listItem">
             <a class="listItem" href="#about-us">About Us</a>
-          </li>
+          </li> -->
           <!-- <li class="listItem">
             <a class="listItem" href="#services">Services</a>
           </li> -->
@@ -189,8 +189,8 @@ svg {
     display: none !important;
   }
   .barIcon {
-    top: 20px;
-    right: 15px;
+    top: 30px;
+    right: 58px;
     position: absolute;
     display: initial;
     background: #fff;

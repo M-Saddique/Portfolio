@@ -22,11 +22,7 @@
       <div class="col-xl-7 mb-3">
         <div class="prediction-bg pt-4">
           <div class="solution-images">
-            <img
-              class="predicdtion-img"
-              src="../assets/dlivrd.png"
-              alt=""
-            />
+            <img class="predicdtion-img" src="../assets/dlivrd.png" alt="" />
           </div>
           <div class="text-center predicdtion-info pt-3">
             <h1 class="text-white Prediction-text pt-3">Dlivrd</h1>
@@ -65,21 +61,21 @@
 
       <div class="col-xl-5 mb-3">
         <div class="prediction-bg pt-4">
-          <div class="solution-images ">
-            <img
-              class="predicdtion-img"
-              src="../assets/lyceum.png"
-              alt=""
-            />
+          <div class="solution-images">
+            <img class="predicdtion-img" src="../assets/lyceum.png" alt="" />
           </div>
           <div class="text-center predicdtion-info pt-3">
-            <h1 class="text-white Prediction-text pt-3">British Lyceum Online Education Platform</h1>
+            <h1 class="text-white Prediction-text pt-3">
+              British Lyceum Online Education Platform
+            </h1>
             <p class="Prediction-paragarph">
               The British Lyceum International Online School is a comprehensive
               and self-paced educational platform committed to delivering
               interactive British education to learners worldwide.
             </p>
-            <a href="https://britishlyceum.co.uk" target="_blank">britishlyceum.co.uk</a>
+            <a href="https://britishlyceum.co.uk" target="_blank"
+              >britishlyceum.co.uk</a
+            >
           </div>
         </div>
       </div>
@@ -297,16 +293,18 @@
   background-repeat: no-repeat; */
 }
 .predicdtion-img {
-    /* width: 100% !important; */
-    width: 402px;
-    height: 210px;
-    object-fit: cover;
-  }
+  /* width: 100% !important; */
+  width: 402px;
+  height: 210px;
+  border-radius: 10px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
 .solution-bg {
   background-image: url("../assets/Our-Solutions.png");
   background-size: cover;
   background-repeat: no-repeat;
-  width: 98%;
+  /* width: 98%; */
   margin: auto;
 }
 .solution-paragarph {
@@ -357,7 +355,7 @@
     width: 100%;
   }
   .predicdtion-img {
-    width: 100% !important; 
+    width: 100% !important;
     object-fit: cover;
     /* width: 350px !important;
     height: 142px;

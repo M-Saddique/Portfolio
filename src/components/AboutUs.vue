@@ -1,9 +1,5 @@
 <template>
-  <div
-    id="about-us"
-    class="container-fluid"
-    style="padding-top: 31px; padding-bottom: 31px"
-  >
+  <div id="about-us" class="" style="padding-top: 31px; padding-bottom: 31px">
     <div class="row mt-5 main-container">
       <div class="col-12 col-md-12 col-lg-6">
         <div class="network p-3">
@@ -19,7 +15,11 @@
                   <div>
                     <span>{{ skill.name }}</span>
                     <span
-                      style="background-color: #80808030;border-radius: 50px; padding: 5px;"
+                      style="
+                        background-color: #80808030;
+                        border-radius: 50px;
+                        padding: 5px;
+                      "
                       class="px-4 ms-3"
                       >{{ skill.year }} years</span
                     >
@@ -95,10 +95,6 @@ const skillSet = [
 ];
 </script>
 <style scoped>
-.main-container {
-  width: 95%;
-  margin: auto;
-}
 .about-us-main {
   margin: auto;
 }
@@ -216,6 +212,9 @@ const skillSet = [
   }
   .network-img {
     width: auto;
+  }
+  #about-us {
+    padding: 10px;
   }
 }
 
