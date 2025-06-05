@@ -4,9 +4,10 @@
       <div class="bg-conatiner">
         <div class="col-12 col-md-8 col-lg-6 p-5">
           <h1 class="text-white Technology-text pt-3 pb-3">
-            Front End Development Success
+            GitHub Fetch Data
           </h1>
-          <div class="row">
+          <GitHub />
+          <!-- <div class="row">
             <div class="col-6 p-3 sucess-main">
               <h4 class="heading-total">+98%</h4>
               <p class="para-total mb-0">Complete Projects</p>
@@ -23,13 +24,15 @@
             Vue.js development services. Explore our portfolio to see examples
             of our work and hear what our clients have to say about their
             experience working with us.
-          </p>
+          </p> -->
         </div>
       </div>
     </div>
   </div>
 </template>
-
+<script setup>
+import GitHub from "@/components/GitHub.vue";
+</script>
 <style scoped>
 .sucess-main-container {
   width: 90%;
