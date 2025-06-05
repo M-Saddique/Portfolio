@@ -19,8 +19,8 @@
                   <div>
                     <span>{{ skill.name }}</span>
                     <span
-                      style="background-color: #80808030"
-                      class="bg-gray px-4 ms-3"
+                      style="background-color: #80808030;border-radius: 50px; padding: 5px;"
+                      class="px-4 ms-3"
                       >{{ skill.year }} years</span
                     >
                   </div>

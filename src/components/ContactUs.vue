@@ -5,7 +5,7 @@
         <img
           src="../assets/Saddique.jpg"
           alt=""
-          style="width: 70px; border-radius: 50px"
+          style="width: 70px; border-radius: 50px; aspect-ratio: 1/1"
         />
       </div>
 

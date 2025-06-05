@@ -2,11 +2,17 @@
   <div class="container-fluid main-nav">
     <div class="row pt-3">
       <div class="col-md-3 col-lg-3 col-xl-6">
-        <img src="../assets/Saddique.jpg" alt=""  style="position: absolute;
-    width: 50px;
-    border-radius: 50px;
-    top: 14px;
-"/>
+        <img
+          src="../assets/Saddique.jpg"
+          alt=""
+          style="
+            position: absolute;
+            width: 50px;
+            border-radius: 50px;
+            top: 14px;
+            aspect-ratio: 1/1;
+          "
+        />
       </div>
       <div class="col-lg-9 col-md-9 col-xl-6">
         <ul class="d-flex nav-list justify-content-between pt-1">
@@ -66,7 +72,9 @@
                   <a class="listItem2" href="#Technology">Technology</a>
                 </li> -->
                 <li @click="closeNavBar" class="listItem2">
-                  <a class="listItem2" href="#Success-stories">Success stories</a>
+                  <a class="listItem2" href="#Success-stories"
+                    >Success stories</a
+                  >
                 </li>
                 <li @click="closeNavBar" class="listItem2">
                   <a class="listItem2" href="#contact-us">Contact Us</a>
@@ -113,17 +121,16 @@ const closeNavBar = () => {
 
 
 <style scoped>
-  
 @import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap");
 svg {
-    color: white;
+  color: white;
 }
 .main-nav {
   padding: 10px 26px;
   position: fixed;
   z-index: 1000;
-  background:black;
-  height:75px;
+  background: black;
+  height: 75px;
 }
 .listItem,
 .listItem2 {
@@ -138,7 +145,7 @@ svg {
   color: #fff;
 }
 .listItem:hover {
-  color: #007BC5;
+  color: #007bc5;
   font-weight: 600;
 }
 .nav-list {
@@ -186,8 +193,8 @@ svg {
     right: 15px;
     position: absolute;
     display: initial;
-    background:#fff;
-    padding:0px 7px;
+    background: #fff;
+    padding: 0px 7px;
   }
   .mobileNav {
     display: initial;
